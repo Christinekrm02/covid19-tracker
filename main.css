@@ -49,6 +49,33 @@ header input:focus {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-main{
-    
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .country {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.current .total-deaths {
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30 0;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.current .new-recovered {
+  font-size: 24px;
+  font-weight: 700;
+}
+.current .total-recovered {
+  font-size: 24px;
+  font-weight: 700;
 }
